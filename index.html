@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- SEO Primary -->
+  <title>CréditoAR – Información sobre Créditos en Argentina | Guía Financiera 2024</title>
+  <meta name="description" content="Todo lo que necesitás saber sobre créditos en Argentina: personales, hipotecarios, prendarios y UVA. Información clara, actualizada y sin costo. Tu guía financiera de confianza." />
+  <meta name="keywords" content="créditos argentina, préstamos personales argentina, crédito hipotecario, crédito UVA, financiamiento argentina, tasas de interés, BCRA, crédito prendario, préstamo online argentina" />
+  <meta name="author" content="CréditoAR" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <link rel="canonical" href="https://creditoar.com.ar/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://creditoar.com.ar/" />
+  <meta property="og:title" content="CréditoAR – Información sobre Créditos en Argentina" />
+  <meta property="og:description" content="Guía completa de créditos en Argentina: personales, hipotecarios, UVA y más. Comparativa de tasas, requisitos y entidades financieras." />
+  <meta property="og:image" content="https://creditoar.com.ar/images/og-image.jpg" />
+  <meta property="og:locale" content="es_AR" />
+  <meta property="og:site_name" content="CréditoAR" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="CréditoAR – Créditos en Argentina" />
+  <meta name="twitter:description" content="Toda la información sobre créditos en Argentina en un solo lugar." />
+  <meta name="twitter:image" content="https://creditoar.com.ar/images/og-image.jpg" />
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FinancialService",
+    "name": "CréditoAR",
+    "description": "Portal informativo sobre créditos y préstamos en Argentina",
+    "url": "https://creditoar.com.ar",
+    "areaServed": "AR",
+    "availableLanguage": "es",
+    "serviceType": "Información financiera"
+  }
+  </script>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%2300ff88'/><text y='.9em' font-size='60' x='15' fill='%230a0a0a'>₿</text></svg>" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100;300;400;600;700;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- Cookie Consent -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- Cookie Banner -->
+  <div id="cookie-banner" class="cookie-banner" role="dialog" aria-label="Aviso de cookies">
+    <div class="cookie-content">
+      <div class="cookie-icon">🍪</div>
+      <div class="cookie-text">
+        <strong>Utilizamos cookies</strong> para mejorar tu experiencia. Al continuar navegando, aceptás nuestra 
+        <a href="#privacidad">Política de Privacidad</a> y el uso de cookies.
+      </div>
+      <div class="cookie-actions">
+        <button class="btn-cookie-reject" onclick="rejectCookies()">Rechazar</button>
+        <button class="btn-cookie-accept" onclick="acceptCookies()">Aceptar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#inicio" class="logo">
+        <span class="logo-symbol">₵</span>
+        <span class="logo-text">Crédito<span class="logo-ar">AR</span></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#tipos" class="nav-link">Tipos de Crédito</a></li>
+        <li><a href="#tasas" class="nav-link">Tasas</a></li>
+        <li><a href="#requisitos" class="nav-link">Requisitos</a></li>
+        <li><a href="#entidades" class="nav-link">Entidades</a></li>
+        <li><a href="#consultas" class="nav-link nav-cta">Consultar</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg">
+      <div class="grid-overlay"></div>
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+      <canvas id="particleCanvas"></canvas>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Información Financiera Argentina 2024
+      </div>
+      <h1 class="hero-title">
+        Entendé los<br/>
+        <span class="gradient-text">Créditos</span><br/>
+        en Argentina
+      </h1>
+      <p class="hero-subtitle">
+        Guía informativa completa sobre préstamos personales, hipotecarios, UVA y más. 
+        Sin costos ocultos. Solo información clara y actualizada.
+      </p>
+      <div class="hero-actions">
+        <a href="#tipos" class="btn-primary">
+          <span>Explorar créditos</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#consultas" class="btn-ghost">Hacer una consulta</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num" data-target="6">0</span>
+          <span class="stat-label">Tipos de crédito</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="50">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Entidades listadas</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="100">0</span><span class="stat-suffix">%</span>
+          <span class="stat-label">Información gratuita</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Deslizá para explorar</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- TIPOS DE CRÉDITO -->
+  <section class="section" id="tipos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Categorías</span>
+        <h2 class="section-title">Tipos de <span class="gradient-text">Crédito</span></h2>
+        <p class="section-desc">Conocé las distintas modalidades de financiamiento disponibles en el mercado argentino</p>
+      </div>
+
+      <div class="cards-grid">
+        <div class="card card-featured reveal">
+          <div class="card-glow"></div>
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 7H4a2 2 0 00-2 2v6a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2z"/><circle cx="12" cy="12" r="2"/></svg>
+          </div>
+          <h3>Crédito Personal</h3>
+          <p>El más común y accesible. Se otorga en función de los ingresos y el historial crediticio del solicitante. Sin necesidad de garantía real.</p>
+          <ul class="card-list">
+            <li>Montos desde $50.000 hasta $5.000.000</li>
+            <li>Plazos de 6 a 60 meses</li>
+            <li>TNA variable según entidad</li>
+            <li>Acreditación en 24-72hs</li>
+          </ul>
+          <div class="card-tag">Más solicitado</div>
+        </div>
+
+        <div class="card reveal">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <h3>Crédito Hipotecario</h3>
+          <p>Financiamiento para la compra, construcción o refacción de inmuebles, con el bien como garantía.</p>
+          <ul class="card-list">
+            <li>Hasta el 80% del valor del inmueble</li>
+            <li>Plazos de hasta 30 años</li>
+            <li>Modalidad UVA o tasa fija</li>
+            <li>Requiere escrituración</li>
+          </ul>
+        </div>
+
+        <div class="card reveal">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 8h1a4 4 0 010 8h-1M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8zM6 1v3M10 1v3M14 1v3"/></svg>
+          </div>
+          <h3>Crédito Prendario</h3>
+          <p>Diseñado para la compra de vehículos. El auto o moto queda en garantía hasta la cancelación total del préstamo.</p>
+          <ul class="card-list">
+            <li>Hasta el 70% del valor del vehículo</li>
+            <li>Plazos de 12 a 84 cuotas</li>
+            <li>Tasa preferencial</li>
+            <li>Aplicable a 0km y usados</li>
+          </ul>
+        </div>
+
+        <div class="card reveal">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3>Crédito UVA</h3>
+          <p>Unidad de Valor Adquisitivo. Las cuotas se ajustan por inflación (CER), lo que permite acceder a tasas más bajas al inicio.</p>
+          <ul class="card-list">
+            <li>Cuotas indexadas al CPI</li>
+            <li>Tasa nominal más baja</li>
+            <li>Protección por ley N°27.541</li>
+            <li>Para hipotecarios principalmente</li>
+          </ul>
+        </div>
+
+        <div class="card reveal">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+          </div>
+          <h3>Tarjeta de Crédito</h3>
+          <p>Línea de crédito rotativa asociada a una tarjeta. Permite financiar compras en cuotas y acceder a adelantos en efectivo.</p>
+          <ul class="card-list">
+            <li>Límite según perfil crediticio</li>
+            <li>Cuotas sin interés en comercios adheridos</li>
+            <li>Financiación del resumen</li>
+            <li>Beneficios y cashback</li>
+          </ul>
+        </div>
+
+        <div class="card reveal">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>Microcréditos</h3>
+          <p>Pequeños préstamos destinados a emprendedores, comerciantes y personas no bancarizadas para impulsar proyectos productivos.</p>
+          <ul class="card-list">
+            <li>Montos reducidos accesibles</li>
+            <li>Requisitos simplificados</li>
+            <li>CONAMI regula el sector</li>
+            <li>Ideal para emprendedores</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TASAS -->
+  <section class="section section-dark" id="tasas">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Referencia</span>
+        <h2 class="section-title">Tasas de <span class="gradient-text">Interés</span></h2>
+        <p class="section-desc">Rangos orientativos de tasas nominales anuales según tipo de crédito. Consultá con cada entidad para valores actualizados.</p>
+      </div>
+
+      <div class="rates-table reveal">
+        <div class="rates-header">
+          <span>Tipo de Crédito</span>
+          <span>TNA Mín.</span>
+          <span>TNA Máx.</span>
+          <span>Plazo Típico</span>
+          <span>Riesgo</span>
+        </div>
+        <div class="rate-row">
+          <span class="rate-name"><span class="rate-dot green"></span>Personal (banco público)</span>
+          <span class="rate-val">60%</span>
+          <span class="rate-val">90%</span>
+          <span class="rate-val">hasta 60m</span>
+          <div class="risk-bar"><div class="risk-fill" style="width:40%"></div></div>
+        </div>
+        <div class="rate-row">
+          <span class="rate-name"><span class="rate-dot lime"></span>Personal (banco privado)</span>
+          <span class="rate-val">80%</span>
+          <span class="rate-val">140%</span>
+          <span class="rate-val">hasta 48m</span>
+          <div class="risk-bar"><div class="risk-fill" style="width:60%"></div></div>
+        </div>
+        <div class="rate-row">
+          <span class="rate-name"><span class="rate-dot cyan"></span>Hipotecario UVA</span>
+          <span class="rate-val">3.5%</span>
+          <span class="rate-val">8%</span>
+          <span class="rate-val">hasta 30 años</span>
+          <div class="risk-bar"><div class="risk-fill" style="width:55%"></div></div>
+        </div>
+        <div class="rate-row">
+          <span class="rate-name"><span class="rate-dot green"></span>Prendario</span>
+          <span class="rate-val">50%</span>
+          <span class="rate-val">85%</span>
+          <span class="rate-val">hasta 84m</span>
+          <div class="risk-bar"><div class="risk-fill" style="width:35%"></div></div>
+        </div>
+        <div class="rate-row">
+          <span class="rate-name"><span class="rate-dot yellow"></span>Tarjeta (financiación)</span>
+          <span class="rate-val">110%</span>
+          <span class="rate-val">180%</span>
+          <span class="rate-val">1 mes</span>
+          <div class="risk-bar"><div class="risk-fill" style="width:85%"></div></div>
+        </div>
+        <div class="rate-row">
+          <span class="rate-name"><span class="rate-dot lime"></span>Microcrédito</span>
+          <span class="rate-val">70%</span>
+          <span class="rate-val">120%</span>
+          <span class="rate-val">hasta 24m</span>
+          <div class="risk-bar"><div class="risk-fill" style="width:50%"></div></div>
+        </div>
+        <div class="rates-disclaimer">
+          ⚠️ Valores orientativos al momento de la publicación. Las tasas varían según entidad, perfil crediticio y condiciones del BCRA. Consultá siempre el Costo Financiero Total (CFT).
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REQUISITOS -->
+  <section class="section" id="requisitos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Documentación</span>
+        <h2 class="section-title">Requisitos <span class="gradient-text">Generales</span></h2>
+        <p class="section-desc">Lo que típicamente vas a necesitar para solicitar un crédito en Argentina</p>
+      </div>
+
+      <div class="req-grid">
+        <div class="req-step reveal">
+          <div class="req-number">01</div>
+          <div class="req-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          </div>
+          <h3>Identidad</h3>
+          <p>DNI vigente (original y copia). Algunas entidades también solicitan el pasaporte o CUIL/CUIT.</p>
+        </div>
+
+        <div class="req-step reveal">
+          <div class="req-number">02</div>
+          <div class="req-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          </div>
+          <h3>Ingresos</h3>
+          <p>Recibos de sueldo (últimos 3 meses), declaración jurada de AFIP para autónomos, o certificado de haberes para jubilados.</p>
+        </div>
+
+        <div class="req-step reveal">
+          <div class="req-number">03</div>
+          <div class="req-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <h3>Domicilio</h3>
+          <p>Comprobante de domicilio actualizado: factura de servicios (luz, gas, agua o teléfono) no mayor a 3 meses.</p>
+        </div>
+
+        <div class="req-step reveal">
+          <div class="req-number">04</div>
+          <div class="req-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+          </div>
+          <h3>Historial Crediticio</h3>
+          <p>Las entidades consultan el BCRA (Central de Deudores) y el Veraz. Estar en situación 1 o 2 es requisito habitual.</p>
+        </div>
+
+        <div class="req-step reveal">
+          <div class="req-number">05</div>
+          <div class="req-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          </div>
+          <h3>Antigüedad Laboral</h3>
+          <p>Generalmente se requieren entre 6 meses y 1 año de antigüedad en el empleo actual para relación de dependencia.</p>
+        </div>
+
+        <div class="req-step reveal">
+          <div class="req-number">06</div>
+          <div class="req-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          </div>
+          <h3>Capacidad de Pago</h3>
+          <p>La cuota no debe superar el 30-35% de los ingresos netos comprobables. Esto determina el monto máximo otorgable.</p>
+        </div>
+      </div>
+
+      <div class="tip-box reveal">
+        <div class="tip-icon">💡</div>
+        <div class="tip-content">
+          <strong>Consejo clave:</strong> Antes de solicitar cualquier crédito, revisá tu situación en el BCRA a través del sitio oficial (bcra.gob.ar) y consultá tu informe en Veraz/Nosis para identificar posibles inconvenientes.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ENTIDADES -->
+  <section class="section section-dark" id="entidades">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Mercado</span>
+        <h2 class="section-title">Principales <span class="gradient-text">Entidades</span></h2>
+        <p class="section-desc">Actores del sistema financiero argentino que ofrecen productos crediticios</p>
+      </div>
+
+      <div class="entities-grid">
+        <div class="entity-card reveal">
+          <div class="entity-icon">🏦</div>
+          <h4>Bancos Públicos</h4>
+          <p>Banco Nación, Provincia, Ciudad. Tasas más competitivas y mayor accesibilidad para distintos perfiles.</p>
+          <span class="entity-tag">Mayor cobertura</span>
+        </div>
+        <div class="entity-card reveal">
+          <div class="entity-icon">🏢</div>
+          <h4>Bancos Privados</h4>
+          <p>Santander, Galicia, BBVA, Macro, HSBC. Mayor agilidad en trámites y plataformas digitales avanzadas.</p>
+          <span class="entity-tag">Digitalización</span>
+        </div>
+        <div class="entity-card reveal">
+          <div class="entity-icon">📱</div>
+          <h4>Fintech</h4>
+          <p>Mercado Pago, Ualá, Naranja X, Wilobank. Procesos 100% digitales y aprobación más rápida.</p>
+          <span class="entity-tag">Innovación</span>
+        </div>
+        <div class="entity-card reveal">
+          <div class="entity-icon">🤝</div>
+          <h4>Cooperativas</h4>
+          <p>Cajas de crédito y mutuales. Tasas razonables para socios, con criterios de evaluación más flexibles.</p>
+          <span class="entity-tag">Comunidad</span>
+        </div>
+        <div class="entity-card reveal">
+          <div class="entity-icon">🏪</div>
+          <h4>Financieras</h4>
+          <p>Compañías financieras reguladas por el BCRA. Atienden segmentos no bancarizados.</p>
+          <span class="entity-tag">Inclusión</span>
+        </div>
+        <div class="entity-card reveal">
+          <div class="entity-icon">🌱</div>
+          <h4>Organismos Públicos</h4>
+          <p>ANSES, INAES, FGS. Créditos subsidiados para grupos específicos: jubilados, pymes, jóvenes.</p>
+          <span class="entity-tag">Subsidio estatal</span>
+        </div>
+      </div>
+
+      <div class="info-banner reveal">
+        <div class="banner-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <div class="banner-text">
+          <strong>Verificá siempre la legitimidad</strong>
+          <p>Toda entidad que otorgue créditos en Argentina debe estar regulada por el BCRA o el INAES. Podés verificar su habilitación en bcra.gob.ar/entidades</p>
+        </div>
+        <a href="https://www.bcra.gob.ar" target="_blank" rel="noopener" class="banner-link">Verificar →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- GLOSARIO / FAQ -->
+  <section class="section" id="glosario">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Educación Financiera</span>
+        <h2 class="section-title">Términos <span class="gradient-text">Clave</span></h2>
+        <p class="section-desc">Vocabulario esencial para entender cualquier oferta de crédito</p>
+      </div>
+
+      <div class="faq-grid">
+        <div class="faq-item reveal" onclick="toggleFaq(this)">
+          <div class="faq-q">
+            <span>¿Qué es el CFT?</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+          <div class="faq-a">
+            El <strong>Costo Financiero Total (CFT)</strong> es el indicador más completo del costo de un crédito. Incluye la TNA, más todos los gastos adicionales: seguros, comisiones, IVA y gastos administrativos. Es el número que realmente debés comparar entre distintas ofertas.
+          </div>
+        </div>
+
+        <div class="faq-item reveal" onclick="toggleFaq(this)">
+          <div class="faq-q">
+            <span>¿TNA vs TEA?</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+          <div class="faq-a">
+            La <strong>TNA</strong> (Tasa Nominal Anual) es la tasa base sin capitalización. La <strong>TEA</strong> (Tasa Efectiva Anual) incorpora el efecto de la capitalización de intereses. En préstamos con cuotas mensuales, la TEA siempre es mayor que la TNA.
+          </div>
+        </div>
+
+        <div class="faq-item reveal" onclick="toggleFaq(this)">
+          <div class="faq-q">
+            <span>¿Qué es la Central de Deudores?</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+          <div class="faq-a">
+            Es el registro del <strong>BCRA</strong> donde figuran todas las personas con deudas en el sistema financiero formal. Clasifica a los deudores del 1 (situación normal) al 6 (irrecuperable). Las entidades lo consultan para evaluar el riesgo crediticio.
+          </div>
+        </div>
+
+        <div class="faq-item reveal" onclick="toggleFaq(this)">
+          <div class="faq-q">
+            <span>¿Qué son las UVAs?</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+          <div class="faq-a">
+            Las <strong>Unidades de Valor Adquisitivo</strong> son unidades de cuenta indexadas al coeficiente CER, que sigue la evolución del costo de vida (inflación). Los créditos UVA tienen cuotas iniciales más bajas, pero se ajustan con la inflación a lo largo del tiempo.
+          </div>
+        </div>
+
+        <div class="faq-item reveal" onclick="toggleFaq(this)">
+          <div class="faq-q">
+            <span>¿Cómo funciona el sistema de cuotas?</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+          <div class="faq-a">
+            El sistema más común en Argentina es el <strong>francés</strong>: cuotas fijas donde al inicio se paga más interés que capital. También existe el <strong>alemán</strong> (capital constante, cuotas decrecientes) y el <strong>americano</strong> (solo intereses, con devolución final del capital).
+          </div>
+        </div>
+
+        <div class="faq-item reveal" onclick="toggleFaq(this)">
+          <div class="faq-q">
+            <span>¿Qué es el scoring crediticio?</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+          <div class="faq-a">
+            Es una puntuación calculada por las entidades y bureaus de crédito (Veraz, Nosis) que evalúa tu comportamiento de pago histórico. Un <strong>mejor scoring</strong> implica mejores condiciones de crédito: mayor monto, menor tasa y plazos más extensos.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONSULTAS -->
+  <section class="section section-form" id="consultas">
+    <div class="container">
+      <div class="form-wrapper">
+        <div class="form-left reveal">
+          <span class="section-tag">Contacto</span>
+          <h2 class="section-title">¿Tenés <span class="gradient-text">dudas</span>?</h2>
+          <p>Este sitio es exclusivamente informativo. Completá el formulario y te respondemos con información general sobre créditos en Argentina. <strong>No somos intermediarios ni otorgamos créditos.</strong></p>
+          
+          <div class="form-features">
+            <div class="ff-item">
+              <div class="ff-icon">⚡</div>
+              <span>Respuesta en 24-48hs hábiles</span>
+            </div>
+            <div class="ff-item">
+              <div class="ff-icon">🔒</div>
+              <span>Tus datos están protegidos</span>
+            </div>
+            <div class="ff-item">
+              <div class="ff-icon">📚</div>
+              <span>Solo información educativa</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-right reveal">
+          <form id="contactForm" class="contact-form" novalidate>
+            <div class="form-group">
+              <label for="nombre">Nombre completo *</label>
+              <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre" autocomplete="name" />
+              <span class="form-error" id="err-nombre"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Correo electrónico *</label>
+              <input type="email" id="email" name="email" required placeholder="tucorreo@ejemplo.com" autocomplete="email" />
+              <span class="form-error" id="err-email"></span>
+            </div>
+            <div class="form-group">
+              <label for="tipo">Tipo de crédito que te interesa</label>
+              <select id="tipo" name="tipo">
+                <option value="">Seleccioná una opción</option>
+                <option value="personal">Crédito Personal</option>
+                <option value="hipotecario">Crédito Hipotecario</option>
+                <option value="prendario">Crédito Prendario</option>
+                <option value="uva">Crédito UVA</option>
+                <option value="tarjeta">Tarjeta de Crédito</option>
+                <option value="microcredito">Microcrédito</option>
+                <option value="otro">Otro</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="mensaje">Tu pregunta *</label>
+              <textarea id="mensaje" name="mensaje" required placeholder="Escribí tu consulta aquí..." rows="4"></textarea>
+              <span class="form-error" id="err-mensaje"></span>
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" id="acepto" name="acepto" required />
+              <label for="acepto">Acepto la <a href="#privacidad">Política de Privacidad</a> y los <a href="#terminos">Términos de Uso</a> *</label>
+              <span class="form-error" id="err-acepto"></span>
+            </div>
+            <button type="submit" class="btn-primary btn-full">
+              <span>Enviar consulta</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </button>
+            <div class="form-success" id="formSuccess">
+              ✅ ¡Consulta enviada! Te responderemos a la brevedad.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- POLÍTICAS -->
+  <section class="section section-policies" id="privacidad">
+    <div class="container">
+      <div class="policies-grid">
+        <div class="policy-card reveal" id="terminos">
+          <div class="policy-icon">📋</div>
+          <h3>Términos y Condiciones</h3>
+          <div class="policy-content">
+            <p><strong>Naturaleza del servicio:</strong> CréditoAR es un sitio web de carácter exclusivamente informativo y educativo sobre el sistema de créditos en Argentina. No somos una entidad financiera, no otorgamos créditos ni actuamos como intermediarios.</p>
+            <p><strong>Uso de la información:</strong> El contenido publicado en este sitio es de carácter orientativo y general. No constituye asesoramiento financiero, legal ni impositivo personalizado. Recomendamos siempre consultar con profesionales o directamente con entidades habilitadas.</p>
+            <p><strong>Exactitud:</strong> Si bien procuramos mantener la información actualizada, las condiciones financieras en Argentina pueden variar significativamente. No nos responsabilizamos por decisiones tomadas en base al contenido de este sitio.</p>
+            <p><strong>Propiedad intelectual:</strong> Todo el contenido de este sitio (textos, diseño, código) está protegido por derechos de autor. Su reproducción parcial o total requiere autorización expresa.</p>
+            <p><strong>Jurisdicción:</strong> Estos términos se rigen por la legislación vigente en la República Argentina.</p>
+          </div>
+        </div>
+
+        <div class="policy-card reveal">
+          <div class="policy-icon">🔒</div>
+          <h3>Política de Privacidad</h3>
+          <div class="policy-content">
+            <p><strong>Datos recolectados:</strong> A través del formulario de contacto recolectamos nombre, correo electrónico y el contenido de tu consulta. Esta información se usa únicamente para responderte.</p>
+            <p><strong>Almacenamiento:</strong> Los datos son almacenados de forma segura. No vendemos, cedemos ni compartimos información personal con terceros con fines comerciales.</p>
+            <p><strong>Cookies:</strong> Utilizamos cookies técnicas necesarias para el funcionamiento del sitio y cookies analíticas (con tu consentimiento) para mejorar la experiencia. Podés gestionar tus preferencias en cualquier momento.</p>
+            <p><strong>Tus derechos:</strong> Conforme a la Ley 25.326 de Protección de Datos Personales (Argentina), tenés derecho de acceso, rectificación, supresión y oposición al tratamiento de tus datos. Para ejercerlos, contactanos por email.</p>
+            <p><strong>Retención:</strong> Los datos del formulario se conservan por un máximo de 12 meses, luego son eliminados de forma segura.</p>
+          </div>
+        </div>
+
+        <div class="policy-card reveal">
+          <div class="policy-icon">🍪</div>
+          <h3>Política de Cookies</h3>
+          <div class="policy-content">
+            <p><strong>¿Qué son las cookies?</strong> Son pequeños archivos de texto almacenados en tu dispositivo que permiten recordar preferencias y analizar el uso del sitio.</p>
+            <p><strong>Cookies técnicas (siempre activas):</strong> Necesarias para el funcionamiento básico del sitio: sesión, preferencias de idioma y recordar tu consentimiento de cookies.</p>
+            <p><strong>Cookies analíticas (opcional):</strong> Nos ayudan a entender cómo los usuarios navegan el sitio. Recolectan información agregada y anónima para mejorar los contenidos.</p>
+            <p><strong>Cookies de marketing (opcional):</strong> En caso de utilizar Google Ads u otras plataformas publicitarias, estas cookies ayudan a mostrar anuncios relevantes fuera de nuestro sitio.</p>
+            <p><strong>Control:</strong> Podés aceptar, rechazar o configurar las cookies no esenciales mediante el banner al ingresar al sitio o en la configuración de tu navegador.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-glow"></div>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#inicio" class="logo">
+            <span class="logo-symbol">₵</span>
+            <span class="logo-text">Crédito<span class="logo-ar">AR</span></span>
+          </a>
+          <p>Portal informativo sobre el sistema de créditos en Argentina. Información clara, actualizada y gratuita.</p>
+          <div class="disclaimer-badge">
+            ⚠️ Solo informativo · No otorgamos créditos
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <div class="footer-col">
+            <h5>Créditos</h5>
+            <ul>
+              <li><a href="#tipos">Personal</a></li>
+              <li><a href="#tipos">Hipotecario</a></li>
+              <li><a href="#tipos">Prendario</a></li>
+              <li><a href="#tipos">UVA</a></li>
+              <li><a href="#tipos">Tarjeta</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h5>Información</h5>
+            <ul>
+              <li><a href="#tasas">Tasas</a></li>
+              <li><a href="#requisitos">Requisitos</a></li>
+              <li><a href="#entidades">Entidades</a></li>
+              <li><a href="#glosario">Glosario</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h5>Legal</h5>
+            <ul>
+              <li><a href="#terminos">Términos y Condiciones</a></li>
+              <li><a href="#privacidad">Política de Privacidad</a></li>
+              <li><a href="#privacidad">Política de Cookies</a></li>
+              <li><a href="#consultas">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2024 CréditoAR — Todos los derechos reservados.</p>
+        <p>La información publicada tiene carácter orientativo y no constituye asesoramiento financiero. Regulado por Ley 25.326 (Protección de Datos) y normativa BCRA.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
